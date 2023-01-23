@@ -1,6 +1,6 @@
 # Course Recommendation System
 
-The college course-recommendation-system is a Python-based project that utilizes the NumPy and pandas libraries to recommend college courses to students. The program uses the cosine similarity module of the scikit-learn library to determine the similarity between courses based on their course descriptions.
+The college course-recommendation-system is a Python-based project that utilizes the NumPy and pandas libraries to recommend college courses to students. The program uses the cosine similarity,sigmoid kernel and decision tree classifer module of the scikit-learn library to determine the similarity between courses based on their course descriptions.
 
 The program takes in a dataset of courses and students' course history as input, performs preprocessing, cleaning and vectorizing of data using TfidfVectorizer, and generates recommendations for courses that are similar to the courses that the student has previously taken. Cosine similarity is then calculated between the student's previously taken courses and all other courses in the dataset.
 
